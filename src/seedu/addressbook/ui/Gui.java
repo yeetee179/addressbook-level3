@@ -29,6 +29,7 @@ public class Gui {
         this.version = version;
     }
 
+    
     public void start(Stage stage, Stoppable mainApp) throws IOException {
         mainWindow = createMainWindow(stage, mainApp);
         mainWindow.displayWelcomeMessage(version, logic.getStorageFilePath());
